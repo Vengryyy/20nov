@@ -27,5 +27,5 @@ document.addEventListener('DOMContentLoaded', function() {
     const $minutes = document.querySelector('.timer__minutes');
     const $seconds = document.querySelector('.timer__seconds');
     countdownTimer();
-    timerId = setInterval(countdownTimer, 1000);
+    timerId = setInterval(countdownTimer, 10);
 });
